@@ -16,7 +16,7 @@ class Signup extends Component {
       email: '',
       phoneNumber: '',
       password: '',
-      gender: '',
+      gender: 'Male',
     };
   }
   handleSubmit = (e) => {
@@ -59,12 +59,10 @@ class Signup extends Component {
             className='toastMessages'
             style={{ width: '750px' }}
           />
-          <MainNavbar/>
+          <MainNavbar />
           <div className='card-form'>
             <div className='card-header'>
-              <h3 className='text-center font-weight-light my-4'>
-                Kora Konti
-              </h3>
+              <h3 className='text-center font-weight-light my-4'>Kora Konti</h3>
             </div>
             <div className='card-body'>
               <form onSubmit={this.handleSubmit}>
@@ -125,6 +123,7 @@ class Signup extends Component {
                       <input
                         type='checkbox'
                         class='form-check-input'
+                        checked={this.state.gender === 'Male'}
                         value='Male'
                         onChange={this.genderChange}
                       />
@@ -132,6 +131,7 @@ class Signup extends Component {
                       <br></br>
                       <input
                         type='checkbox'
+                        checked={this.state.gender === 'Female'}
                         class='form-check-input'
                         value='Female'
                         onChange={this.genderChange}
@@ -143,7 +143,7 @@ class Signup extends Component {
                 <br />
                 <div className='form-group'>
                   <button className='btn btn-secondary btn-block'>
-                  kwiyandikisha
+                    kwiyandikisha
                   </button>
                 </div>
               </form>

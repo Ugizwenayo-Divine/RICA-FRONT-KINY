@@ -1,6 +1,6 @@
 {
   "name": "rica-inc-frontend",
-  "homepage":"https://kiny.ricainc.co.com/",
+  "homepage": "https://kiny.ricainc.co.com/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

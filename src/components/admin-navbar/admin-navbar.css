@@ -8,19 +8,16 @@
 }
 .admin-navbar-left{
     position: relative;
-    font-family: Montserrat;
     float: left;
     width: auto;
 }
 .admin-navbar-right{
     float: right;
     width: auto;
-    font-family: Montserrat;
 }
 .admin-navbar-left>a, .admin-navbar-left>span, .admin-navbar-right>a{
     text-decoration: none;
     color: white;
-    font-family: Montserrat;
     margin: 0 15%;
 }
 .admin-navbar-right>a:hover,a:focus,
@@ -36,7 +33,6 @@
     padding-bottom: 1%;
     color: white;
     position: absolute;
-    font-family: Montserrat;
     background-color: #869399c7;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     right: 0;
@@ -48,7 +44,6 @@
 .client-nav>span>a,.log{
     color: white;    
   font-size: medium;
-  font-family: Montserrat;
   font-weight: 500;
 }
 .client-nav>span>a:hover,:focus,
